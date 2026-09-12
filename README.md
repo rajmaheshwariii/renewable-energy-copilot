@@ -57,42 +57,8 @@ Supported:
 - `main.py` — end-to-end demonstration
 - `tests.py` — basic functional tests
 - `member3_operational_dataset.csv` — operational layer
-- `ml_hourly_training_dataset.csv` — Member 1 aligned hourly dataset
+- `ml_hourly_training_dataset.csv` — Model aligned hourly dataset
 
-## Member interfaces
-
-### Member 1 gives
-`predicted_generation_kw`
-
-For multi-hour planning, ideally:
-- timestamp
-- predicted_generation_kw
-- forecast uncertainty
-
-### Member 2 gives
-- `risk_score`
-- optionally `forecast_uncertainty_pct`
-
-### Member 3 uses
-- demand
-- battery SOC/capacity/rates
-- backup availability/capacity
-- grid export availability/limit
-- price
-- backup cost
-- backup CO2 factor
-
-## Frontend What-If sliders
-
-Direct Member 3 slider/toggle inputs:
-- demand
-- battery SOC
-- backup availability
-- grid export availability
-- optimization mode
-
-Weather sliders such as cloud cover should first trigger Member 1's forecast
-model, then the new prediction should be passed to Member 3.
 
 ## Run
 
