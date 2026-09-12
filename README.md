@@ -1,6 +1,6 @@
-# Renewable Energy Copilot — Member 3 Decision Intelligence v2
+# AI Powered Renewable Generation Forecasting Platform
 
-This module converts Member 1's renewable generation forecast and Member 2's
+This module converts renewable generation forecast and
 risk output into operational actions.
 
 ## Added functionality
