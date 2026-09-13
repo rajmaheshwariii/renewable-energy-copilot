@@ -1,0 +1,56 @@
+# =========================
+# React / Vite
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+frontend/.env
+frontend/.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+backend/__pycache__/
+backend/**/__pycache__/
+
+# =========================
+# Python testing
+# =========================
+.pytest_cache/
+.coverage
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
